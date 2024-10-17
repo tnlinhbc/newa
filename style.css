@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* header Contact */
+.header__contact {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(0, #064d73, #03d9e9);
+}
+
+.header__contact p {
+    margin: 0.7vh 1.5vw;
+    color: white;
+}
+
+/* header contact */
+
+/*  header banner */
+.header__banner {
+    width: 100%;
+    height: 145px;
+}
+
+.header__banner img {
+    width: 100%;
+    height: 100%;
+}
+
+/* header banner */
+
+/* header menu */
+.header__menu {
+    width: 100%;
+    height: 35px;
+}
+
+.header__menu ul {
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #378de5, #fcfdfe, #378de5);
+
+}
+
+.header__menu ul li {
+    position: relative;
+    width: 16.2vw;
+    height: 35px;
+    display: inline-block;
+    z-index: 1;
+}
+
+.header__menu ul li a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    display: block;
+    transition: 0.25s;
+    padding: 0.56vw;
+
+}
+
+.header__menu ul li a:hover {
+    color: brown;
+    opacity: 0.5 unset;
+    background-color: steelblue;
+}
+
+.header__menu ul li>.header__menu--child {
+    display: none;
+    position: absolute;
+}
+
+.header__menu--child {
+    display: none;
+    position: absolute;
+}
+
+.header__menu ul li:hover .header__menu--child {
+    display: block;
+    top: 35x;
+    z-index: 2;
+}
+
+/* header menu */
+
+/* header marquee */
+.header__marquee {
+    margin-top: 2px;
+    font-weight: bold;
+    color: red;
+    z-index: 3;
+}
+
+/* header marquee */
+nav {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+
+/* nav menu */
+.nav__menu {
+    width: 16%;
+    height: 250px;
+}
+
+.nav__menu ul {
+    list-style: none;
+
+}
+
+.nav__menu ul li {
+    position: relative;
+    width: 17.5vw;
+    height: 31.2px;
+
+
+}
+
+.nav__menu ul li a {
+    background-image: linear-gradient(#ccecfa, #6cb6e8, #96cced);
+    border: 1px solid #0056b3;
+    padding: 0.4vw;
+    display: block;
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    transition: 0.25s;
+
+}
+
+.nav__menu ul li a:hover {
+    opacity: 0.5 unset;
+    border: 1px solid #fdd078;
+    background-image: linear-gradient(#fdd078, #fdd078, #ffad32);
+}
+
+
+.nav__menu--child {
+    position: absolute;
+    display: none;
+    left: 248px;
+    top: 0;
+}
+
+.nav__menu ul li:hover .nav__menu--child {
+    display: block;
+    left: 17.45vw;
+    top: 0;
+}
+
+/* nav menu */
+
+/* nav lg */
+.nav__lg {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin-top: 0.5vw;
+}
+
+/* nav lg */
+
+/* nav form */
+.nav__form {
+    margin-top: 1vh;
+    line-height: 1.5vw;
+}
+
+.nav__form p {
+    font-weight: bold;
+    color: red;
+}
+
+.nav__form .button {
+    width: 7vw;
+    font-weight: bold;
+}
+
+/* nav form */
+/* content */
+.content {
+    width: 65%;
+    line-height: 1.05vw;
+    text-align: justify;
+}
+
+.content h4 {
+    text-align: center;
+    color: red;
+    margin-bottom: 1vw;
+}
+
+/* content */
+
+/* sidebar */
+.sidebar {
+    margin-left: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    height: 560px;
+}
+
+/* sidebar */
+
+/* footer */
+footer {
+    margin-top: 5px;
+    text-align: center;
+    border-top: 3px solid #32b8ff;
+}
+
+.footer {
+    margin: 1vw;
+}
+
+.footer h4 {
+    color: red;
+}
+
+.footer h5 {
+    color: #32b8ff;
+}
+
+/* footer */
